@@ -11,6 +11,7 @@ Luego de pasar la entrevista por llamada debes completar los siguientes desafío
 * Es un plus si puedes desplegarlo en un entorno, si no, es suficiente que dejes las instrucciones para ejecutar el proyecto de forma local
 
 ## Comenzamos con la prueba
+
 ### 1. Crear un proyecto de serverless con typescript
 
 Tendras que levantar un servicio API REST serverless con typescript, implementando un CRUD básico, desde el cual puedas administrar una librería. Para la base de datos deberás utilizar prisma.io, también deberás validar los cuerpos de las solicitudes con algún validador de JSON schema (si eliges AWS como proveedor de despliegue puedes hacerlo por API Gateway) y por último deberás hacer manejo de errores así como el manejo de CORS.
