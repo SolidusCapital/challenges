@@ -14,19 +14,19 @@ Luego de pasar la entrevista por llamada debes completar los siguientes desafío
 
 ### 1. Crear un proyecto de serverless con typescript
 
-Tendras que levantar un servicio API REST serverless con typescript, implementando un CRUD básico, desde el cual puedas administrar una librería. Para la base de datos deberás utilizar prisma.io, también deberás validar los cuerpos de las solicitudes con algún validador de JSON schema (si eliges AWS como proveedor de despliegue puedes hacerlo por API Gateway) y por último deberás hacer manejo de errores así como el manejo de CORS. También deberas agregar páginado y busqueda para el listado.
+Tendrás que levantar un servicio API REST serverless con typescript, implementando un CRUD básico, desde el cual puedas administrar una librería. Para la base de datos deberás emplear prisma.io, también deberás validar los cuerpos de las solicitudes con algún validador de JSON schema (si eliges AWS como proveedor de despliegue puedes hacerlo por API Gateway) y por último deberás hacer manejo de errores así como el manejo de CORS. También deberas agregar páginado y busqueda para el listado.
 
 ### 2. Crear un proyecto de nextjs con typescript
 
-Deberas crear el frontend con nextjs y typescript, eres libre de elegir cualquier framework de componentes o CSS para la UI, el diseño no se evaluara, pero si la usabilidad. El frontend será para administrar una biblioteca (altas, bajas, listado, cambio y borrado de libros, además del paginado y busqueda) puedes utilizar un framework de manejo de estado, o es un plus si lo implementas con React Context, el estilo de los componentes deberá ser React Hooks, es un plus si configuras un linter y/o pruebas de integración o unitarías.
+Deberás crear el frontend con nextjs y typescript, eres libre de elegir cualquier framework de componentes o CSS para la UI, el diseño no se evaluará, pero si la usabilidad. El frontend será para administrar una biblioteca (altas, bajas, listado, cambio y borrado de libros, además del paginado y busqueda) puedes utilizar un framework de manejo de estado, o es un plus si lo implementas con React Context, el estilo de los componentes deberá ser React Hooks, es un plus si configuras un linter y/o pruebas de integración o unitarías.
 
 ### 3. Integrar el backend con el frontend
 
-Por último deberas integrar la aplicación de frontend con el backend, y configurar el ambiente ya sea local o desplegado para que sea facil probarlo. 
+Por último deberás integrar la aplicación de frontend con el backend, y configurar el ambiente ya sea local o desplegado para que sea facil probarlo.
 
 ### 4. Divertete
 
-Es momento de que te expreses y dejes fluir la creatividad, si consideras que una librería puede ayudarte a solucionar algo facilmente no dudes en usarla.
+Es momento de que te expreses y dejes fluir la creatividad, si consideras que una librería puede ayudarte a solucionar algo fácilmente no dudes en usarla.
 
 ### 5. La entrega del proyecto
 
