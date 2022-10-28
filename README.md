@@ -12,13 +12,25 @@ Luego de pasar la entrevista por llamada debes completar los siguientes desafío
 
 ## Comenzamos con la prueba
 
-### 1. Crear un proyecto de serverless con typescript
+### 1. Backend
 
-Tendrás que levantar un servicio API REST serverless con typescript, implementando un CRUD básico, desde el cual puedas administrar una librería. Para la base de datos deberás emplear prisma.io, también deberás validar los cuerpos de las solicitudes con algún validador de JSON schema (si eliges AWS como proveedor de despliegue puedes hacerlo por API Gateway) y por último deberás hacer manejo de errores así como el manejo de CORS. También deberas agregar páginado y busqueda para el listado.
+Tendrás que levantar un servicio API REST serverless con typescript, implementando un CRUD básico, desde el cual puedas administrar una librería. Para la base de datos deberás emplear prisma.io, también deberás validar los cuerpos de las solicitudes con algún validador de JSON schema (si eliges AWS como proveedor de despliegue puedes hacerlo por API Gateway).
 
-### 2. Crear un proyecto de nextjs con typescript
+#### Extras
+* Manejo de errores
+* Manejo de CORS
+* Paginado y búsqueda para el listado
 
-Deberás crear el frontend con nextjs y typescript, eres libre de elegir cualquier framework de componentes o CSS para la UI, el diseño no se evaluará, pero si la usabilidad. El frontend será para administrar una biblioteca (altas, bajas, listado, cambio y borrado de libros, además del paginado y busqueda) puedes utilizar un framework de manejo de estado, o es un plus si lo implementas con React Context, el estilo de los componentes deberá ser React Hooks, es un plus si configuras un linter y/o pruebas de integración o unitarías.
+### 2. Frontend
+
+Deberás crear el frontend con nextjs y typescript, eres libre de elegir cualquier framework de componentes o CSS para la UI, el diseño no se evaluará, pero si la usabilidad. El frontend será para administrar una biblioteca (altas, bajas, listado, cambio y borrado de libros) puedes utilizar un framework de manejo de estado, o es un plus si lo implementas con React Context, el estilo de los componentes deberá ser React Hooks.
+
+#### Extras
+* Paginado y búsqueda
+* Uso de React Context
+* Uso de algún linter
+* Pruebas de integración
+* Pruebas unitarias
 
 ### 3. Integrar el backend con el frontend
 
@@ -34,7 +46,7 @@ Tienes 3 días apartir de la entrevista por llamada para terminar el proyecto, a
 
 ## ¿Necesitas ayuda?
 
-Si tienes problemas con el proyecto, te atascaste o necesitas ayuda con definiciones puedes escribirnos a [tech@soliduscapital.io](mailto:tech@soliduscapital.io)
+Si tienes problemas con el proyecto, te atascaste o necesitas ayuda con definiciones puedes escribirnos a [dms@soliduscapital.io](mailto:dms@soliduscapital.io)
 o [abrir un issue](https://github.com/SolidusCapital/challenges/issues/new)
 
 ## Acerca de Solidus Capital
